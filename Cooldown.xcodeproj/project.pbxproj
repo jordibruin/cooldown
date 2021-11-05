@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C21D060D27353F8A006548E2 /* CooldownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21D060C27353F8A006548E2 /* CooldownApp.swift */; };
+		C21D060F27353F8A006548E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21D060E27353F8A006548E2 /* ContentView.swift */; };
+		C21D061127353F8B006548E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21D061027353F8B006548E2 /* Assets.xcassets */; };
+		C21D061427353F8B006548E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21D061327353F8B006548E2 /* Preview Assets.xcassets */; };
+		C21D061F27353F8B006548E2 /* CooldownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21D061E27353F8B006548E2 /* CooldownTests.swift */; };
+		C21D062927353F8B006548E2 /* CooldownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21D062827353F8B006548E2 /* CooldownUITests.swift */; };
+		C21D062B27353F8B006548E2 /* CooldownUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21D062A27353F8B006548E2 /* CooldownUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C21D061B27353F8B006548E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C21D060127353F8A006548E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C21D060827353F8A006548E2;
+			remoteInfo = Cooldown;
+		};
+		C21D062527353F8B006548E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C21D060127353F8A006548E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C21D060827353F8A006548E2;
+			remoteInfo = Cooldown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C21D060927353F8A006548E2 /* Cooldown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cooldown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21D060C27353F8A006548E2 /* CooldownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooldownApp.swift; sourceTree = "<group>"; };
+		C21D060E27353F8A006548E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C21D061027353F8B006548E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C21D061327353F8B006548E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C21D061527353F8B006548E2 /* Cooldown.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cooldown.entitlements; sourceTree = "<group>"; };
+		C21D061A27353F8B006548E2 /* CooldownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CooldownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21D061E27353F8B006548E2 /* CooldownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooldownTests.swift; sourceTree = "<group>"; };
+		C21D062427353F8B006548E2 /* CooldownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CooldownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21D062827353F8B006548E2 /* CooldownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooldownUITests.swift; sourceTree = "<group>"; };
+		C21D062A27353F8B006548E2 /* CooldownUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooldownUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C21D060627353F8A006548E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21D061727353F8B006548E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21D062127353F8B006548E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C21D060027353F8A006548E2 = {
+			isa = PBXGroup;
+			children = (
+				C21D060B27353F8A006548E2 /* Cooldown */,
+				C21D061D27353F8B006548E2 /* CooldownTests */,
+				C21D062727353F8B006548E2 /* CooldownUITests */,
+				C21D060A27353F8A006548E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C21D060A27353F8A006548E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C21D060927353F8A006548E2 /* Cooldown.app */,
+				C21D061A27353F8B006548E2 /* CooldownTests.xctest */,
+				C21D062427353F8B006548E2 /* CooldownUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C21D060B27353F8A006548E2 /* Cooldown */ = {
+			isa = PBXGroup;
+			children = (
+				C21D060C27353F8A006548E2 /* CooldownApp.swift */,
+				C21D060E27353F8A006548E2 /* ContentView.swift */,
+				C21D061027353F8B006548E2 /* Assets.xcassets */,
+				C21D061527353F8B006548E2 /* Cooldown.entitlements */,
+				C21D061227353F8B006548E2 /* Preview Content */,
+			);
+			path = Cooldown;
+			sourceTree = "<group>";
+		};
+		C21D061227353F8B006548E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C21D061327353F8B006548E2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C21D061D27353F8B006548E2 /* CooldownTests */ = {
+			isa = PBXGroup;
+			children = (
+				C21D061E27353F8B006548E2 /* CooldownTests.swift */,
+			);
+			path = CooldownTests;
+			sourceTree = "<group>";
+		};
+		C21D062727353F8B006548E2 /* CooldownUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C21D062827353F8B006548E2 /* CooldownUITests.swift */,
+				C21D062A27353F8B006548E2 /* CooldownUITestsLaunchTests.swift */,
+			);
+			path = CooldownUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C21D060827353F8A006548E2 /* Cooldown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21D062E27353F8B006548E2 /* Build configuration list for PBXNativeTarget "Cooldown" */;
+			buildPhases = (
+				C21D060527353F8A006548E2 /* Sources */,
+				C21D060627353F8A006548E2 /* Frameworks */,
+				C21D060727353F8A006548E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cooldown;
+			productName = Cooldown;
+			productReference = C21D060927353F8A006548E2 /* Cooldown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C21D061927353F8B006548E2 /* CooldownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21D063127353F8B006548E2 /* Build configuration list for PBXNativeTarget "CooldownTests" */;
+			buildPhases = (
+				C21D061627353F8B006548E2 /* Sources */,
+				C21D061727353F8B006548E2 /* Frameworks */,
+				C21D061827353F8B006548E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C21D061C27353F8B006548E2 /* PBXTargetDependency */,
+			);
+			name = CooldownTests;
+			productName = CooldownTests;
+			productReference = C21D061A27353F8B006548E2 /* CooldownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C21D062327353F8B006548E2 /* CooldownUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21D063427353F8B006548E2 /* Build configuration list for PBXNativeTarget "CooldownUITests" */;
+			buildPhases = (
+				C21D062027353F8B006548E2 /* Sources */,
+				C21D062127353F8B006548E2 /* Frameworks */,
+				C21D062227353F8B006548E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C21D062627353F8B006548E2 /* PBXTargetDependency */,
+			);
+			name = CooldownUITests;
+			productName = CooldownUITests;
+			productReference = C21D062427353F8B006548E2 /* CooldownUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C21D060127353F8A006548E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					C21D060827353F8A006548E2 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					C21D061927353F8B006548E2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C21D060827353F8A006548E2;
+					};
+					C21D062327353F8B006548E2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C21D060827353F8A006548E2;
+					};
+				};
+			};
+			buildConfigurationList = C21D060427353F8A006548E2 /* Build configuration list for PBXProject "Cooldown" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C21D060027353F8A006548E2;
+			productRefGroup = C21D060A27353F8A006548E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C21D060827353F8A006548E2 /* Cooldown */,
+				C21D061927353F8B006548E2 /* CooldownTests */,
+				C21D062327353F8B006548E2 /* CooldownUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C21D060727353F8A006548E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21D061427353F8B006548E2 /* Preview Assets.xcassets in Resources */,
+				C21D061127353F8B006548E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21D061827353F8B006548E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21D062227353F8B006548E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C21D060527353F8A006548E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21D060F27353F8A006548E2 /* ContentView.swift in Sources */,
+				C21D060D27353F8A006548E2 /* CooldownApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21D061627353F8B006548E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21D061F27353F8B006548E2 /* CooldownTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21D062027353F8B006548E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21D062B27353F8B006548E2 /* CooldownUITestsLaunchTests.swift in Sources */,
+				C21D062927353F8B006548E2 /* CooldownUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C21D061C27353F8B006548E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C21D060827353F8A006548E2 /* Cooldown */;
+			targetProxy = C21D061B27353F8B006548E2 /* PBXContainerItemProxy */;
+		};
+		C21D062627353F8B006548E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C21D060827353F8A006548E2 /* Cooldown */;
+			targetProxy = C21D062527353F8B006548E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C21D062C27353F8B006548E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C21D062D27353F8B006548E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C21D062F27353F8B006548E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Cooldown/Cooldown.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cooldown/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Q7TMPA46J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodsnooze.Cooldown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C21D063027353F8B006548E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Cooldown/Cooldown.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cooldown/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Q7TMPA46J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodsnooze.Cooldown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C21D063227353F8B006548E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q7TMPA46J;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodsnooze.CooldownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cooldown.app/Contents/MacOS/Cooldown";
+			};
+			name = Debug;
+		};
+		C21D063327353F8B006548E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q7TMPA46J;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodsnooze.CooldownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cooldown.app/Contents/MacOS/Cooldown";
+			};
+			name = Release;
+		};
+		C21D063527353F8B006548E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q7TMPA46J;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodsnooze.CooldownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Cooldown;
+			};
+			name = Debug;
+		};
+		C21D063627353F8B006548E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q7TMPA46J;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodsnooze.CooldownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Cooldown;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C21D060427353F8A006548E2 /* Build configuration list for PBXProject "Cooldown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21D062C27353F8B006548E2 /* Debug */,
+				C21D062D27353F8B006548E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C21D062E27353F8B006548E2 /* Build configuration list for PBXNativeTarget "Cooldown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21D062F27353F8B006548E2 /* Debug */,
+				C21D063027353F8B006548E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C21D063127353F8B006548E2 /* Build configuration list for PBXNativeTarget "CooldownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21D063227353F8B006548E2 /* Debug */,
+				C21D063327353F8B006548E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C21D063427353F8B006548E2 /* Build configuration list for PBXNativeTarget "CooldownUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21D063527353F8B006548E2 /* Debug */,
+				C21D063627353F8B006548E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C21D060127353F8A006548E2 /* Project object */;
+}
