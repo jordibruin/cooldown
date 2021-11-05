@@ -14,6 +14,9 @@
 		C21D061F27353F8B006548E2 /* CooldownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21D061E27353F8B006548E2 /* CooldownTests.swift */; };
 		C21D062927353F8B006548E2 /* CooldownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21D062827353F8B006548E2 /* CooldownUITests.swift */; };
 		C21D062B27353F8B006548E2 /* CooldownUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21D062A27353F8B006548E2 /* CooldownUITestsLaunchTests.swift */; };
+		C21D063C27355C7E006548E2 /* StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21D063B27355C7E006548E2 /* StatusBar.swift */; };
+		C21D063E27355C95006548E2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21D063D27355C95006548E2 /* Extensions.swift */; };
+		C21D064027355E2A006548E2 /* RemoteConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21D063F27355E2A006548E2 /* RemoteConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C2104CF5273593CA0083B0AF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C2104CFB273596020083B0AF /* CooldownRelease.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = CooldownRelease.entitlements; sourceTree = "<group>"; };
 		C21D060927353F8A006548E2 /* Cooldown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cooldown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21D060C27353F8A006548E2 /* CooldownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooldownApp.swift; sourceTree = "<group>"; };
 		C21D060E27353F8A006548E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +50,9 @@
 		C21D062427353F8B006548E2 /* CooldownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CooldownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21D062827353F8B006548E2 /* CooldownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooldownUITests.swift; sourceTree = "<group>"; };
 		C21D062A27353F8B006548E2 /* CooldownUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooldownUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C21D063B27355C7E006548E2 /* StatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBar.swift; sourceTree = "<group>"; };
+		C21D063D27355C95006548E2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C21D063F27355E2A006548E2 /* RemoteConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 				C21D061D27353F8B006548E2 /* CooldownTests */,
 				C21D062727353F8B006548E2 /* CooldownUITests */,
 				C21D060A27353F8A006548E2 /* Products */,
+				C21D0641273568B5006548E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,8 +104,12 @@
 		C21D060B27353F8A006548E2 /* Cooldown */ = {
 			isa = PBXGroup;
 			children = (
+				C2104CFB273596020083B0AF /* CooldownRelease.entitlements */,
 				C21D060C27353F8A006548E2 /* CooldownApp.swift */,
+				C21D063B27355C7E006548E2 /* StatusBar.swift */,
 				C21D060E27353F8A006548E2 /* ContentView.swift */,
+				C21D063D27355C95006548E2 /* Extensions.swift */,
+				C21D063F27355E2A006548E2 /* RemoteConfig.swift */,
 				C21D061027353F8B006548E2 /* Assets.xcassets */,
 				C21D061527353F8B006548E2 /* Cooldown.entitlements */,
 				C21D061227353F8B006548E2 /* Preview Content */,
@@ -127,6 +140,14 @@
 				C21D062A27353F8B006548E2 /* CooldownUITestsLaunchTests.swift */,
 			);
 			path = CooldownUITests;
+			sourceTree = "<group>";
+		};
+		C21D0641273568B5006548E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2104CF5273593CA0083B0AF /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C21D063C27355C7E006548E2 /* StatusBar.swift in Sources */,
+				C21D064027355E2A006548E2 /* RemoteConfig.swift in Sources */,
 				C21D060F27353F8A006548E2 /* ContentView.swift in Sources */,
 				C21D060D27353F8A006548E2 /* CooldownApp.swift in Sources */,
+				C21D063E27355C95006548E2 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,22 +442,26 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Cooldown/Cooldown.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 20;
 				DEVELOPMENT_ASSET_PATHS = "\"Cooldown/Preview Content\"";
 				DEVELOPMENT_TEAM = 8Q7TMPA46J;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.goodsnooze.Cooldown;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodsnooze.cooldown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Cooldown Profile";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -444,23 +472,27 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Cooldown/Cooldown.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = Cooldown/CooldownRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 20;
 				DEVELOPMENT_ASSET_PATHS = "\"Cooldown/Preview Content\"";
 				DEVELOPMENT_TEAM = 8Q7TMPA46J;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.goodsnooze.Cooldown;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodsnooze.cooldown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Cooldown Profile";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
