@@ -17,5 +17,5 @@ Design improvements
 
 ⚠️ Root access
 
-To toggle Low Power Mode, Cooldown uses Terminal commands that require root access. That is why the app will ask you to authenticate with TouchID on every toggle. I'm looking into ways around this, so if you have any suggestions let me know @jordibruin.
+To toggle Low Power Mode, Cooldown uses Terminal commands that require root access. That is why the app will ask you to authenticate with TouchID on every toggle. I found a work around for this where the app will call a shortcut (that only needs to be approved once).
 
