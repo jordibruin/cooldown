@@ -1,4 +1,4 @@
-# cooldown
+# Cooldown
 Quickly toggle Low Power Mode from the menu bar
 
 In macOS Monterey Apple introduced a new Low Power Mode for Mac. Cooldown is a simple menu bar app that allows you to quickly toggle Low Power Mode on and off.
