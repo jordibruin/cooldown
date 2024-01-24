@@ -18,7 +18,7 @@ struct ContentView: View {
                 .bold()
             Text(LPMActive ? "Enabled" : "Disabled")
             Button {
-                toggleLowPowerMode()
+                togglePowerMode()
             } label: {
                 Text(LPMActive ? "Disable LPM" : "Enable LPM")
             }
@@ -31,7 +31,7 @@ struct ContentView: View {
     }
     
     func isLPMActive() -> Bool {
-        guard let response = run("pmset -g | grep lowpowermode") else {
+        guard let response = run("pmset -g | grep PowerMode") else {
             print("Could not get anything from terminal")
             return false
         }
@@ -40,14 +40,14 @@ struct ContentView: View {
         return response.contains("1")
     }
     
-    func toggleLowPowerMode() {
+    func togglePowerMode() {
         if isLPMActive() {
-            if let _ = run("osascript -e 'do shell script \"sudo pmset -a lowpowermode 0\" with prompt \"Cooldown\" with administrator privileges'") {
+            if let _ = run("osascript -e 'do shell script \"sudo pmset -a PowerMode 0\" with prompt \"Cooldown\" with administrator privileges'") {
                 print("Disabled Low Power Mode")
                 _ = isLPMActive()
             }
         } else {
-            if let _ = run("osascript -e 'do shell script \"sudo pmset -a lowpowermode 1\" with prompt \"Cooldown\" with administrator privileges'") {
+            if let _ = run("osascript -e 'do shell script \"sudo pmset -a PowerMode 1\" with prompt \"Cooldown\" with administrator privileges'") {
                 print("Enabled Low Power Mode")
                 _ = isLPMActive()
             }
