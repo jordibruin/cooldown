@@ -44,7 +44,7 @@ class StatusBar {
     }
     
     @objc func doSomeAction(sender: NSStatusItem) {
-        toggleLowPowerMode()
+        toggleLPowerMode()
     }
     
     func tintedImage(_ image: NSImage, tint: NSColor) -> NSImage {
@@ -63,7 +63,7 @@ class StatusBar {
     
     
     func isLPMActive() -> Bool {
-        guard let response = run("pmset -g | grep lowpowermode") else {
+        guard let response = run("pmset -g | grep LPowerMode") else {
             print("Could not get anything from terminal")
             return false
         }
@@ -82,14 +82,14 @@ class StatusBar {
         return response.contains("1")
     }
     
-    func toggleLowPowerMode() {
+    func toggleLPowerMode() {
         if isLPMActive() {
-            if let _ = run("osascript -e 'do shell script \"sudo pmset -a lowpowermode 0\" with prompt \"🔋 Cooldown wants to disable Low Power Mode\" with administrator privileges'") {
+            if let _ = run("osascript -e 'do shell script \"sudo pmset -a LPowerMode 0\" with prompt \"🔋 Cooldown wants to disable Low Power Mode\" with administrator privileges'") {
                 print("Disabled Low Power Mode")
                 _ = isLPMActive()
             }
         } else {
-            if let _ = run("osascript -e 'do shell script \"sudo pmset -a lowpowermode 1\" with prompt \"🔋 Cooldown wants to enable Low Power Mode\" with administrator privileges'") {
+            if let _ = run("osascript -e 'do shell script \"sudo pmset -a LPowerMode 1\" with prompt \"🔋 Cooldown wants to enable Low Power Mode\" with administrator privileges'") {
                 print("Enabled Low Power Mode")
                 _ = isLPMActive()
             }
